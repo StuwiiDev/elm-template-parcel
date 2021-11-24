@@ -1,0 +1,26 @@
+{
+  "name": "elm-template-parcel",
+  "version": "1.0.0",
+  "description": "elm app using parcel for bundling and dev server",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel index.html",
+    "production": "parcel build --public-url ./  index.html ",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "elm",
+    "elm-template"
+  ],
+  "author": "Stuart Maskell",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.0.1",
+    "elm": "^0.19.1-5",
+    "elm-hot": "^1.1.6",
+    "node-elm-compiler": "^5.0.6",
+    "parcel": "^2.0.1",
+    "parcel-bundler": "^1.12.5",
+    "sass": "^1.43.4"
+  }
+}
